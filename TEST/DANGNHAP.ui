@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1908</width>
-    <height>859</height>
+    <width>1440</width>
+    <height>786</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,7 +36,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../../../ic_background.jpeg</pixmap>
+     <pixmap>images/background.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -125,11 +125,11 @@ background-color: rgba(255, 255, 255, 192);
     </property>
     <property name="font">
      <font>
-      <family>#9Slide03 SFU Grenoble</family>
+      <family>.New York</family>
       <pointsize>13</pointsize>
-      <weight>50</weight>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -178,7 +178,7 @@ background-color: rgba(255, 255, 255, 192);
     </property>
     <property name="font">
      <font>
-      <family>#9Slide03 SFU Grenoble</family>
+      <family>.New York</family>
       <weight>50</weight>
       <italic>true</italic>
       <bold>false</bold>
@@ -205,7 +205,7 @@ background-color: rgba(255, 255, 255, 192);
     </property>
     <property name="font">
      <font>
-      <family>#9Slide03 SFU Grenoble</family>
+      <family>.New York</family>
       <italic>true</italic>
      </font>
     </property>
@@ -227,7 +227,7 @@ background-color: rgba(255, 255, 255, 192);
     </property>
     <property name="font">
      <font>
-      <family>#9Slide03 SFU Grenoble</family>
+      <family>.New York</family>
       <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -255,7 +255,7 @@ background-color: rgb(70, 130, 180);</string>
     </property>
     <property name="font">
      <font>
-      <family>#9Slide03 SFU Grenoble</family>
+      <family>.New York</family>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -267,7 +267,7 @@ background-color: rgb(70, 130, 180);</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButtonLogin_2">
+   <widget class="QPushButton" name="pushButtonCreate">
     <property name="geometry">
      <rect>
       <x>770</x>
@@ -278,7 +278,7 @@ background-color: rgb(70, 130, 180);</string>
     </property>
     <property name="font">
      <font>
-      <family>#9Slide03 SFU Grenoble</family>
+      <family>.New York</family>
       <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -306,11 +306,11 @@ background-color: rgb(70, 130, 180);</string>
     </property>
     <property name="font">
      <font>
-      <family>#9Slide03 SFU Grenoble</family>
+      <family>.New York</family>
       <pointsize>13</pointsize>
-      <weight>50</weight>
+      <weight>75</weight>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -326,8 +326,8 @@ background-color: rgb(70, 130, 180);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1908</width>
-     <height>26</height>
+     <width>1440</width>
+     <height>24</height>
     </rect>
    </property>
   </widget>
