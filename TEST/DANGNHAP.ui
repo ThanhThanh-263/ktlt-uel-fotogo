@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1440</width>
-    <height>789</height>
+    <width>1908</width>
+    <height>859</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>-30</y>
-      <width>1441</width>
-      <height>891</height>
+      <y>-100</y>
+      <width>2048</width>
+      <height>2048</height>
      </rect>
     </property>
     <property name="maximumSize">
@@ -29,11 +29,14 @@
       <height>2048</height>
      </size>
     </property>
+    <property name="styleSheet">
+     <string notr="true">self.setStyleSheet(&quot;background-image: url('./images/bg.jpg');&quot;)</string>
+    </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>images/background đăng nhập.png</pixmap>
+     <pixmap>../../../../../../ic_background.jpeg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -42,8 +45,8 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>460</x>
-      <y>90</y>
+      <x>700</x>
+      <y>130</y>
       <width>531</width>
       <height>711</height>
      </rect>
@@ -95,8 +98,8 @@ background-color: rgba(255, 255, 255, 192);
    <widget class="QLabel" name="Logo">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>90</y>
+      <x>590</x>
+      <y>130</y>
       <width>751</width>
       <height>321</height>
      </rect>
@@ -114,18 +117,19 @@ background-color: rgba(255, 255, 255, 192);
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>410</y>
-      <width>111</width>
+      <x>770</x>
+      <y>450</y>
+      <width>121</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>.New York</family>
+      <family>#9Slide03 SFU Grenoble</family>
       <pointsize>13</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -138,8 +142,8 @@ background-color: rgba(255, 255, 255, 192);
    <widget class="QLineEdit" name="lineEditUsername">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>440</y>
+      <x>770</x>
+      <y>480</y>
       <width>391</width>
       <height>31</height>
      </rect>
@@ -149,35 +153,11 @@ background-color: rgba(255, 255, 255, 192);
 </string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_6">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>500</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>.New York</family>
-      <pointsize>13</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(70, 130, 180);</string>
-    </property>
-    <property name="text">
-     <string>Password:</string>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEditPassword">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>530</y>
+      <x>770</x>
+      <y>570</y>
       <width>391</width>
       <height>31</height>
      </rect>
@@ -190,15 +170,15 @@ background-color: rgba(255, 255, 255, 192);
    <widget class="QCheckBox" name="checkBoxSaveInformation">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>600</y>
+      <x>770</x>
+      <y>640</y>
       <width>191</width>
       <height>21</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>.New York</family>
+      <family>#9Slide03 SFU Grenoble</family>
       <weight>50</weight>
       <italic>true</italic>
       <bold>false</bold>
@@ -210,19 +190,22 @@ background-color: rgba(255, 255, 255, 192);
     <property name="text">
      <string>Save information </string>
     </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>820</x>
-      <y>600</y>
+      <x>1060</x>
+      <y>640</y>
       <width>121</width>
       <height>20</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>.New York</family>
+      <family>#9Slide03 SFU Grenoble</family>
       <italic>true</italic>
      </font>
     </property>
@@ -236,15 +219,15 @@ background-color: rgba(255, 255, 255, 192);
    <widget class="QPushButton" name="pushButtonLogin">
     <property name="geometry">
      <rect>
-      <x>530</x>
-      <y>640</y>
+      <x>770</x>
+      <y>690</y>
       <width>401</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>.New York</family>
+      <family>#9Slide03 SFU Grenoble</family>
       <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
@@ -257,31 +240,84 @@ background-color: rgb(70, 130, 180);</string>
     <property name="text">
      <string>LOGIN</string>
     </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>740</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>#9Slide03 SFU Grenoble</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:11pt; font-weight:600; color:#4682b4;&quot;&gt;OR&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButtonLogin_2">
     <property name="geometry">
      <rect>
-      <x>610</x>
-      <y>740</y>
-      <width>231</width>
+      <x>770</x>
+      <y>770</y>
+      <width>401</width>
       <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>.New York</family>
+      <family>#9Slide03 SFU Grenoble</family>
       <pointsize>16</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(70, 130, 180);
-background-color: rgb(249, 249, 249);
-</string>
+     <string notr="true">color: rgb(249, 249, 249);
+background-color: rgb(70, 130, 180);</string>
     </property>
     <property name="text">
-     <string>CREATE NEW ACCOUNT</string>
+     <string>CREAT NEW ACCOUNT</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>540</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>#9Slide03 SFU Grenoble</family>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(70, 130, 180);</string>
+    </property>
+    <property name="text">
+     <string>Password:</string>
     </property>
    </widget>
   </widget>
@@ -290,8 +326,8 @@ background-color: rgb(249, 249, 249);
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1440</width>
-     <height>24</height>
+     <width>1908</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
